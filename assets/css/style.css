@@ -1,0 +1,502 @@
+/*================================================================================
+	Item Name: ForeverRise Token
+	Version: 1.0
+	Author: 
+	Author URL: 
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+
+.main-color
+{
+    color: #b5864f !important;
+}
+
+.lighter-color
+{
+    color: #e8b271 !important;
+}
+
+.alt-color
+{
+    background: #d9173c !important;
+}
+
+.alt-color3
+{
+    background: #d9173ca3 !important;
+    border: 1px solid #b5103b;
+    box-shadow: 0px 0px 10px 0px rgb(140, 22, 53);
+}
+
+.alt-color2
+{
+    background: #e8b271 !important;
+}
+
+.bg-custom-color
+{
+    background-color: #03152b !important;
+}
+
+.bg-custom-color2
+{
+    background-color: #001025 !important;
+}
+
+.btn-community, .btn-community:active
+{
+    border: .2px solid #dbdbdb;
+    opacity: .5;
+}
+
+.btn-community:hover, .btn-community:focus
+{
+    border: 1px solid #ffc178;
+    background-color: #7b5b35 !important;
+    opacity: 1;
+}
+
+.community-img
+{
+    width: 26px;
+}
+
+.community-list
+{
+    background-color: #03152b;
+    border: 1px solid #ffffff59;
+}
+
+.bg-custom-hero
+{
+    background-image: url('../images/FR-BG.png') !important;
+}
+
+.text-slogan
+{
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* Rocket SVG Color and Animation */
+.sy0 {
+    fill: #EBEBEB;
+}
+
+.sy1 {
+    fill: #061C38;
+}
+
+.sy2 {
+    fill: #455A64;
+}
+
+.sy3 {
+    fill: #263238;
+}
+
+.sy4 {
+    fill: #C6C6C6;
+}
+
+.sy5 {
+    fill: #D9173C;
+}
+
+.sy6 {
+    fill: #FAFAFA;
+}
+
+.sy7 {
+    fill: #FFFFFF;
+}
+
+.sy8 {
+    opacity: 0.2;
+    enable-background: new;
+}
+
+.sy9 {
+    opacity: 0.4;
+    enable-background: new;
+}
+
+#cloud1, #cloud2
+{
+    fill: #ffffff;
+}
+
+svg #rocket {
+    animation: 1.5s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+svg #cloud1
+{
+    animation-duration: 1.2s;
+    animation-name: animatecloud1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animatecloud1
+{
+    from{
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+svg #cloud2
+{
+    animation-duration: 1.2s;
+    animation-name: animatecloud2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animatecloud2
+{
+    from{
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+/* Phoenix SVG color and Animation */
+.st0{display:none;}
+        .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#061C38;}
+        .st2{fill:url(#SVGID_1_);}
+        .st3{fill:url(#SVGID_2_);}
+        .st4{fill:url(#SVGID_3_);}
+        .st5{fill:url(#SVGID_4_);}
+        .st6{opacity:0.6;fill:url(#SVGID_5_);}
+        .st7{fill:url(#SVGID_6_);}
+        .st8{fill:url(#SVGID_7_);}
+        .st9{fill:url(#SVGID_8_);}
+        .st10{opacity:0.52;fill:url(#SVGID_9_);}
+        .st11{fill:url(#SVGID_10_);}
+        .st12{fill:url(#SVGID_11_);}
+        .st13{fill:url(#SVGID_12_);}
+        .st14{fill:url(#SVGID_13_);}
+        .st15{fill:url(#SVGID_14_);}
+        .st16{fill:url(#SVGID_15_);}
+        .st17{fill:url(#SVGID_16_);}
+        .st18{fill:url(#SVGID_17_);}
+        .st19{fill:url(#SVGID_18_);}
+        .st20{fill:url(#SVGID_19_);}
+        .st21{fill:url(#SVGID_20_);}
+        .st22{fill:url(#SVGID_21_);}
+        .st23{fill:url(#SVGID_22_);}
+        .st24{fill:url(#SVGID_23_);}
+        .st25{fill:url(#SVGID_24_);}
+        .st26{fill:url(#SVGID_25_);}
+        .st27{fill:url(#SVGID_26_);}
+        .st28{fill:url(#SVGID_27_);}
+        .st29{fill:url(#SVGID_28_);}
+        .st30{fill:url(#SVGID_29_);}
+        .st31{fill:url(#SVGID_30_);}
+        .st32{fill:url(#SVGID_31_);}
+        .st33{fill:url(#SVGID_32_);}
+        .st34{fill:url(#SVGID_33_);}
+        .st35{fill:url(#SVGID_34_);}
+        .st36{fill:url(#SVGID_35_);}
+        .st37{fill:url(#SVGID_36_);}
+        .st38{fill:url(#SVGID_37_);}
+        .st39{opacity:0.99;fill:url(#SVGID_38_);}
+        .st40{fill:url(#SVGID_39_);}
+        .st41{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_40_);}
+        .st42{opacity:0.99;fill:url(#SVGID_41_);}
+        .st43{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_42_);}
+        .st44{fill:url(#SVGID_43_);}
+        .st45{fill:url(#SVGID_44_);}
+        .st46{fill:url(#SVGID_45_);}
+        .st47{fill:url(#SVGID_46_);}
+        .st48{fill:url(#SVGID_47_);}
+        .st49{fill:url(#SVGID_48_);}
+        .st50{fill:url(#SVGID_49_);}
+        .st51{fill:url(#SVGID_50_);}
+        .st52{opacity:0.6;fill:url(#SVGID_51_);}
+        .st53{fill:url(#SVGID_52_);}
+        .st54{fill:url(#SVGID_53_);}
+        .st55{fill:url(#SVGID_54_);}
+        .st56{opacity:0.91;fill:url(#SVGID_55_);}
+        .st57{opacity:0.5;fill:url(#SVGID_56_);}
+        .st58{fill:url(#SVGID_57_);}
+        .st59{opacity:0.91;fill:url(#SVGID_58_);}
+        .st60{opacity:0.5;fill:url(#SVGID_59_);}
+        .st61{opacity:0.5;fill:url(#SVGID_60_);}
+        .st62{opacity:0.5;fill:url(#SVGID_61_);}
+        .st63{fill:url(#SVGID_62_);}
+        .st64{fill:url(#SVGID_63_);}
+        .st65{fill:url(#SVGID_64_);}
+        .st66{fill:url(#SVGID_65_);}
+        .st67{fill:url(#SVGID_66_);}
+        .st68{fill:#FFFFFF;}
+        .st69{opacity:0.3;fill:url(#SVGID_67_);}
+        .st70{fill:url(#SVGID_68_);}
+        .st71{fill:url(#SVGID_69_);}
+        .st72{fill:url(#SVGID_70_);}
+        .st73{fill:url(#SVGID_71_);}
+        .st74{fill:url(#SVGID_72_);}
+        .st75{fill:url(#SVGID_73_);}
+        .st76{fill:url(#SVGID_74_);}
+        .st77{fill:url(#SVGID_75_);}
+        .st78{fill:url(#SVGID_76_);}
+        .st79{fill:url(#SVGID_77_);}
+        .st80{fill:url(#SVGID_78_);}
+        .st81{fill:url(#SVGID_79_);}
+        .st82{opacity:0.3;fill:url(#SVGID_80_);}
+        .st83{opacity:0.52;fill:url(#SVGID_81_);}
+        .st84{opacity:0.52;fill:url(#SVGID_82_);}
+        .st85{fill:url(#SVGID_83_);}
+        .st86{fill:url(#SVGID_84_);}
+        .st87{opacity:0.6;fill:url(#SVGID_85_);}
+        .st88{fill:url(#SVGID_86_);}
+        .st89{fill:url(#SVGID_87_);}
+        .st90{fill:url(#SVGID_88_);}
+        .st91{fill:url(#SVGID_89_);}
+        .st92{opacity:0.6;fill:url(#SVGID_90_);}
+        .st93{fill:url(#SVGID_91_);}
+        .st94{fill:url(#SVGID_92_);}
+        .st95{opacity:0.6;fill:url(#SVGID_93_);}
+        .st96{fill:#FF002C;}
+        .st97{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_94_);}
+
+/* feather 1 */
+svg #feather1
+{
+    animation: 1.2s Infinite linear wind;
+    animation-delay: 0s;
+}
+
+@keyframes wind {
+    0% {
+        transform: rotate(0deg);
+       
+    }
+    25% {
+        transform: rotate(1deg);
+       
+    }
+    50% {
+        transform: rotate(0deg);
+      
+    }
+    75% {
+        transform: rotate(-1deg);
+      
+    }
+    100% {
+        transform: rotate(0deg);
+      
+    }
+}
+
+/* feather 2 */
+svg #feather2
+{
+    animation: 1.2s Infinite alternate wind2;
+}
+
+@keyframes wind2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+   
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* feather 3 */
+svg #feather3
+{
+    animation: 1.2s Infinite alternate wind3;
+}
+
+@keyframes wind3 {
+    0% {
+        transform: rotate(0deg);
+      
+    }
+    25% {
+        transform: rotate(1deg);
+     
+    }
+   
+    75% {
+        transform: rotate(-1deg);
+    
+    }
+    100% {
+        transform: rotate(0deg);
+
+    }
+}
+
+/* feather 4 */
+svg #feather4
+{
+    animation: 1.2s Infinite alternate wind4;
+    animation-delay: 0s;
+}
+
+@keyframes wind4 {
+    0% {
+        transform: rotate(0deg);
+      
+    }
+    
+   
+    75% {
+        transform: rotate(-1deg);
+    
+    }
+    100% {
+        transform: rotate(0deg);
+
+    }
+}
+
+svg #flame {
+    animation: 1.5s Infinite linear floating;
+    animation-delay: 0s;
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+ /* Chart.js */
+ @-webkit-keyframes chartjs-render-animation {
+    from {
+        opacity: 0.99
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes chartjs-render-animation {
+    from {
+        opacity: 0.99
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.chartjs-render-monitor {
+    -webkit-animation: chartjs-render-animation 0.001s;
+    animation: chartjs-render-animation 0.001s;
+}
+
+/* Navigation */
+.menu .menu-item:first-child
+{
+    border: none!important;
+    padding-bottom: 20px;
+}
+
+/* Pop-Up Box */
+.alert-minimalist {
+    background-color: #03152b;
+    border: 1px solid #ffffff59;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 40px rgba(14, 42, 76, 0.2);
+    box-shadow: 0 5px 40px rgba(14, 42, 76, 0.2);
+    padding: 10px;
+    width: 300px;
+    z-index: 9 !important;
+}
+.alert-minimalist [data-notify="dismiss"] {
+    color: rgba(218, 218, 218, 0.8);
+}
+.alert-minimalist #image {
+    float: left;
+    margin-bottom: 5px;
+}
+.alert-minimalist #image [data-notify="icon"] {
+    height: 45px;
+    margin-right: 12px;
+}
+.alert-minimalist #text {
+    margin-top: o auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.alert-minimalist #text [data-notify="message"] {
+    font-size: 80%;
+}
+.alert-minimalist #text [data-notify="message"] span.blue {
+    color: #28bcfd;
+    font-weight: 700;
+}
+.alert-minimalist #text a{
+   border-bottom: none;
+}
+
+
+/* .alert-minimalist #text [data-notify="title"] {
+    color: #333;
+    line-height: 1rem;
+    display: block;
+    font-size: 85%;
+    font-weight: 700;
+}
+.alert-minimalist #text [data-notify="time"] {
+    display: block;
+    font-size: 70%;
+    color: rgba(149, 149, 149, 0.7);
+    margin-top: 4px;
+} */
